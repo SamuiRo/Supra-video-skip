@@ -40,7 +40,7 @@ script.onload = () => {
         const player = new Vimeo.Player(iframe);
 
         // scip to end
-        player.setCurrentTime(1); 
+        player.setCurrentTime(100000); 
     }
 };
 ```
